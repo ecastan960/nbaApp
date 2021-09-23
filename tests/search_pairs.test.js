@@ -2,7 +2,7 @@ const pairs = require("../components/search_pairs");
 
 const table = [
   {
-    height: "69",
+    height: 69,
     players: [
       {
         first_name: "Nate",
@@ -13,7 +13,7 @@ const table = [
     ],
   },
   {
-    height: "70",
+    height: 70,
     players: [
       {
         first_name: "Brevin",
@@ -25,7 +25,7 @@ const table = [
     ],
   },
   {
-    height: "71",
+    height: 71,
     players: [
       {
         first_name: "Chucky",
@@ -51,4 +51,9 @@ test("Checks good table size", () => {
 test("Checks good table size", () => {
   result = pairs(139, table);
   expect(result.length).toBe(2);
+});
+
+test("Checks no match table size", () => {
+  result = pairs(138, table);
+  expect(result.length).toBe(0);
 });

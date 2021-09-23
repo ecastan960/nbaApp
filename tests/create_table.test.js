@@ -63,5 +63,5 @@ test("Checks good table size", () => {
 
 test("Checks table first element to be the shortest", () => {
   const table = Height(array);
-  expect(table[0].height).toBe("76");
+  expect(table[0].height).toBe(76);
 });

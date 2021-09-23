@@ -10,13 +10,13 @@ function Height(info) {
   let player;
   for (let i = 0; i < info.length; i++) {
     let found = false;
-    index = info[i].h_in;
+    index = parseInt(info[i].h_in);
     player = info[i];
     if (table.length === 0) {
       table.push({ height: index, players: [info[i]] });
     } else {
       for (let i = 0; i < table.length; i++) {
-        if (table[i].height === index) {
+        if (parseInt(table[i].height) === index) {
           table[i].players.push(player);
           found = true;
         }
