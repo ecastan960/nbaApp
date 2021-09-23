@@ -174,7 +174,7 @@ table = [
 
 The time complexity in this case is O(n), because for every element in the source data, a operation is needed to update the new array.
 In the new array, the input number is check to see which keys add up to make a match, and continue to iterate until all the matching pairs
-are printed on the terminal.
+are printed on the terminal. In the search pairs function, two for cycles are used to access every pair that match. This process is O(n) at worst with respect to the original input from the api and almost O(n2) at worst for the new array.
 
 - Run Tests
 

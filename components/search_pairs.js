@@ -8,7 +8,7 @@
 // Outputs: lIndex: new left index on table
 //          rIndex: new right index on table
 function indexSearch(lIndex, rIndex, number, table) {
-  if (table[lIndex].height + table[rIndex].height > number) {
+  if (table[lIndex].height + table[rIndex].height >= number) {
     while (table[lIndex].height + table[rIndex].height > number) {
       rIndex--;
       if (rIndex === lIndex) {
