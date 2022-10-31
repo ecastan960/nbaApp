@@ -1,5 +1,12 @@
 # nba_app
 
+## About myself
+
+Former mechanical engineer and now full time developer, looking to learn and improve on a daily basis:
+- Linkedin: https://www.linkedin.com/in/ecastan1/
+- Twitter: EstebanCastaoZ1
+- Project repositories: https://github.com/ecastan960?tab=repositories
+
 ## Overview
 
 This app prints on screen the pairs of NBA players whose added height in inches matches an input
